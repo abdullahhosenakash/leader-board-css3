@@ -82,7 +82,23 @@ hr{
 }
 
 /* course styles */
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 24px;
+}
 .course .course-banner img{
     width: 224px;
     height: 104px;
+}
+.course-info{
+    display: flex;
+    justify-content: space-between;
+}
+.fa-star.filled{
+    color:#FFC014;
+}
+.fa-star.unfilled{
+    color: #AEAEAE;
+    opacity: 0.5;
 }
