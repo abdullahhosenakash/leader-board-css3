@@ -6,6 +6,10 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
 }
+header h1{
+    text-align: center;
+    
+}
 main{
     display: flex;
     flex-direction: column;
